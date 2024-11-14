@@ -1,0 +1,57 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog with Calendar Navigation</title>
+    <link rel="stylesheet" href="source/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3075080692353785"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Posting Every Day Until I Make $1,000,000</h1>
+        <p> Hey, I’m Nilly! I created this website with one wild, probably unrealistic, dream: to turn it—and my TikTok—into a million-dollar journey. I might not even get close to that, but I’m giving it a shot. Every day, I’ll be posting whatever’s on my mind and tracking my progress toward that $1,000,000 goal—keeping tabs on my TikTok earnings and Google AdSense revenue from website ads. Let’s see how this crazy ride goes!</p>
+        
+        <!-- TikTok link above the calendar dropdown -->
+        <a href="https://www.tiktok.com/@nillytomilly" target="_blank" class="tiktok-tag">
+            <img src="images/tiktok-icon.svg" alt="TikTok Icon" class="tiktok-icon">nillytomilly
+        </a>
+
+        <div class="date-selector">
+            <label for="postDate">Select a Date:</label>
+            <input type="date" id="postDate" onchange="scrollToPost()">
+        </div>
+
+        <!-- Contact Link at the Top -->
+        <p><a href="#contact" class="contact-link">Contact Me</a></p>
+    </header>
+
+    <main>
+        <article id="2024-11-14">
+            <h2>Day 1 / November 14, 2024: Hi! My name is…</h2>
+            <p>This is the content of the blog post written on October 30, 2024.</p>
+        </article>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="YOUR_FORM_PROCESSING_SCRIPT_URL" method="POST">
+                <div class="form-group">
+                    <label for="name">Nickname:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="source/script.js"></script>
+</body>
+</html>
