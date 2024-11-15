@@ -173,7 +173,6 @@ button:hover {
     padding-bottom: 56.25%; /* Aspect ratio for 16:9 (315 / 560 = 0.5625, or 56.25%) */
     height: 0;
     overflow: hidden;
-    max-width: 560px;
     width: 100%;
     margin: 0 auto; /* Centers the container horizontally */
 }
@@ -193,9 +192,16 @@ button:hover {
     height: 100%;
   }
 
-  /* Ensures the video doesn't become too large on larger screens */
-@media (min-width: 768px) {
+/* Ensures the video is responsive on smaller screens */
+@media (max-width: 768px) {
     .video-container {
-      max-width: 80%; /* Limits width of video on larger screens */
+        max-width: 100%; /* Allow video to be full width on mobile */
     }
-  }
+}
+
+/* Prevents the video from expanding too large on larger screens */
+@media (min-width: 769px) {
+    .video-container {
+        max-width: 560px; /* Keeps the video at its original size on larger screens */
+    }
+}
