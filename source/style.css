@@ -173,7 +173,7 @@ button:hover {
     padding-bottom: 56.25%; /* Aspect ratio for 16:9 (315 / 560 = 0.5625, or 56.25%) */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 560px;
     width: 100%;
     margin: 0 auto; /* Centers the container horizontally */
 }
