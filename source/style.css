@@ -175,7 +175,15 @@ button:hover {
     overflow: hidden;
     max-width: 100%;
     width: 100%;
-  }
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center; /* Centers the video horizontally */
+  align-items: center; /* Centers the video vertically */
+  height: 100vh; /* Makes the wrapper take up the full viewport height */
+}
   
   .video-container iframe {
     position: absolute;
