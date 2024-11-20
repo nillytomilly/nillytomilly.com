@@ -31,6 +31,10 @@ h1 {
     align-items: center; /* Center items vertically */
 }
 
+.tiktok-tag:hover {
+    text-decoration: underline; /* Optional hover effect */
+}
+
 .instagram-tag {
     margin: 0; /* Remove any margin */
     font-size: 16px; /* Adjust font size */
@@ -38,6 +42,10 @@ h1 {
     text-decoration: none; /* Remove underline */
     display: inline-flex; /* Use inline-flex for proper alignment */
     align-items: center; /* Center items vertically */
+}
+
+.instagram-tag:hover {
+    text-decoration: underline; /* Optional hover effect */
 }
 
 .date-selector {
