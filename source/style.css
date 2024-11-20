@@ -14,6 +14,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
     z-index: 1000; /* Ensure header is above other content */
     text-align: center; /* Center the text in the header */
+    width: 100%; /* Ensure it stretches across the full width */
 }
 
 h1 {
@@ -63,7 +64,21 @@ input[type="date"] {
 
 main {
     margin-top: 220px; /* Increased margin-top to accommodate the header */
+    padding: 20px;
 }
+
+@media (max-width: 600px) {
+    header {
+        position: relative; /* Change to relative on small screens */
+        margin-bottom: 20px;
+        padding: 15px; /* Adjust padding for mobile */
+    }
+
+    main {
+        margin-top: 0; /* Remove top margin for mobile */
+    }
+}
+
 
 article {
     margin-bottom: 40px;
