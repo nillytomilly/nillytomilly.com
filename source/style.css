@@ -14,7 +14,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
     z-index: 1000; /* Ensure header is above other content */
     text-align: center; /* Center the text in the header */
-    width: 100%; /* Ensure it stretches across the full width */
+    width: 100%; /* Ensure the header stretches across the full width */
 }
 
 h1 {
@@ -63,22 +63,8 @@ input[type="date"] {
 }
 
 main {
-    margin-top: 220px; /* Increased margin-top to accommodate the header */
-    padding: 20px;
+    margin-top: 500px; /* Increased margin-top to accommodate the header */
 }
-
-@media (max-width: 600px) {
-    header {
-        position: relative; /* Change to relative on small screens */
-        margin-bottom: 20px;
-        padding: 15px; /* Adjust padding for mobile */
-    }
-
-    main {
-        margin-top: 0; /* Remove top margin for mobile */
-    }
-}
-
 
 article {
     margin-bottom: 40px;
@@ -133,68 +119,6 @@ input[type="text"] {
 
 button {
     margin-top: 10px; /* Space above button */
-    padding: 10px; /* Padding for button */
-    background-color: #69C9D0; /* Button color matching TikTok */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor for button */
-}
-
-button:hover {
-    background-color: #5aa3a0; /* Darken button color on hover */
-}
-
-.contact-section {
-    width: 90%; /* Set width as needed */
-    max-width: 500px; /* Optional max width for larger screens */
-    margin: 20px auto; /* Center the section horizontally */
-    padding: 15px; /* Padding inside the section */
-    border: 1px solid #ccc; /* Optional border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light background color */
-    text-align: left; /* Center text within the section */
-}
-
-/* Space between nickname and message */
-.contact-section div {
-    margin-bottom: 10px; /* Add space below each form element */
-}
-
-/* Media query for mobile devices */
-@media (max-width: 600px) {
-    .contact-section {
-        width: 80%; /* Full width minus the margin */
-        margin: 20px auto; /* Space around the section for mobile */
-    }
-    button {
-        margin-top: 5px; /* Reduce space above button for mobile */
-    }
-    textarea {
-        margin-bottom: 5px; /* Space below the textarea */
-    }
-}
-
-.form-group {
-    margin-bottom: 15px; /* Space between form groups */
-}
-
-label {
-    display: block; /* Make label a block element to stack above inputs */
-    margin-bottom: 5px; /* Space below label */
-}
-
-input[type="text"],
-textarea {
-    width: 100%; /* Full width for better usability */
-    padding: 10px; /* Inner padding for inputs */
-    border: 1px solid #ccc; /* Border for inputs */
-    border-radius: 4px; /* Rounded corners for inputs */
-    box-sizing: border-box; /* Include padding and border in width calculation */
-}
-
-button {
-    margin-top: 5px; /* Space above button */
     padding: 10px; /* Padding for button */
     background-color: #69C9D0; /* Button color matching TikTok */
     color: white; /* Text color */
