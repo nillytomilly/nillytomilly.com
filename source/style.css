@@ -31,6 +31,15 @@ h1 {
     align-items: center; /* Center items vertically */
 }
 
+.instagram-tag {
+    margin: 0; /* Remove any margin */
+    font-size: 16px; /* Adjust font size */
+    color: #69C9D0; /* TikTok color */
+    text-decoration: none; /* Remove underline */
+    display: inline-flex; /* Use inline-flex for proper alignment */
+    align-items: center; /* Center items vertically */
+}
+
 .date-selector {
     margin-top: 5px; /* Optional space above date selector */
 }
@@ -76,6 +85,12 @@ article {
 .tiktok-icon {
     width: 24px; /* Set the desired width */
     height: 24px; /* Set the desired height */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.instagram-icon {
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
     margin-right: 5px; /* Space between icon and text */
 }
 
