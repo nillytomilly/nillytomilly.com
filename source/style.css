@@ -3,3 +3,71 @@ body {
     margin: 0; /* Remove default margin */
     padding: 0;
 }
+
+.tiktok-icon {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.instagram-icon {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.tiktok-tag {
+    margin: 0; /* Remove any margin */
+    font-size: 16px; /* Adjust font size */
+    color: #69C9D0; /* TikTok color */
+    text-decoration: none; /* Remove underline */
+    display: inline-flex; /* Use inline-flex for proper alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.tiktok-tag:hover {
+    text-decoration: underline; /* Optional hover effect */
+}
+
+.instagram-tag {
+    margin: 0; /* Remove any margin */
+    font-size: 16px; /* Adjust font size */
+    color: #69C9D0; /* TikTok color */
+    text-decoration: none; /* Remove underline */
+    display: inline-flex; /* Use inline-flex for proper alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.instagram-tag:hover {
+    text-decoration: underline; /* Optional hover effect */
+}
+
+header {
+    position: fixed; /* Keep the header fixed on the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; /* Set background to cover content behind */
+    padding: 20px 20px; /* Increased padding for more space */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
+    z-index: 1000; /* Ensure header is above other content */
+    text-align: center; /* Center the text in the header */
+    width: 100%; /* Ensure the header stretches across the full width */
+}
+
+h1 {
+    margin: 20px; /* Remove default margin */
+    font-size: 2.5em; /* Change font size (adjust as needed) */
+}
+
+.date-selector {
+    margin-top: 10px; /* Optional space above date selector */
+}
+
+input[type="date"] {
+    margin-left: 5px; /* Space between label and input */
+}
+
+main {
+    margin-top: 250px; /* Increased margin-top to accommodate the header */
+}
